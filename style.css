@@ -69,3 +69,48 @@ h1 {
     text-align: center;
     color: lawngreen;
 }
+
+
+.popUpAd {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 45%;
+    right: 20%;
+    height: 25%;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.insidepopad {
+        background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.close {
+    cursor: pointer;
+    padding:8px ;
+}
+
+.hide {
+    display: none;
+}
+
+.skibid {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.buton {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.popUpImg {
+    width: 100%;
+    height: 100%;
+}
