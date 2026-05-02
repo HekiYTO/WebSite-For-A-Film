@@ -46,10 +46,12 @@ function popupAd() {
 
 setInterval(popupAd, 30000);
 
-// Right-click to open ad
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-    popupAd();
+// Spacebar to open ad
+document.addEventListener('keydown', function(e) {
+    if (e.code === 'Space') {
+        e.preventDefault();
+        popupAd();
+    }
 });
 
 
