@@ -45,3 +45,11 @@ function popupAd() {
 }
 
 setInterval(popupAd, 30000);
+
+// Right-click to open ad
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    popupAd();
+});
+
+
